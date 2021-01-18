@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Markdown的基本语法 - 萌小叔的博客</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="萌小叔" /><meta name="description" content="第一篇正是文章吧，记录Markdown的用法" /><meta name="keywords" content="Hugo, 学习, 生活" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.80.0 with theme even" />
+
+
+<link rel="canonical" href="https://IDName.github.io/post/2020/05051/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.2e81bbed97b8b282c1aeb57488cc71c8d8c8ec559f3931531bd396bf31e0d4dd.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="Markdown的基本语法" />
+<meta property="og:description" content="第一篇正是文章吧，记录Markdown的用法" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://IDName.github.io/post/2020/05051/" />
+<meta property="article:published_time" content="2020-05-05T22:46:01+08:00" />
+<meta property="article:modified_time" content="2020-05-06T22:46:01+08:00" />
+<meta itemprop="name" content="Markdown的基本语法">
+<meta itemprop="description" content="第一篇正是文章吧，记录Markdown的用法">
+<meta itemprop="datePublished" content="2020-05-05T22:46:01+08:00" />
+<meta itemprop="dateModified" content="2020-05-06T22:46:01+08:00" />
+<meta itemprop="wordCount" content="1397">
+
+
+
+<meta itemprop="keywords" content="markdown," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Markdown的基本语法"/>
+<meta name="twitter:description" content="第一篇正是文章吧，记录Markdown的用法"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">萌小叔</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">主页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">归档</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">关于</li>
+      </a>
+  </ul>
+
+  
+
+
+</nav>
+
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">萌小叔</a>
+</div>
+
+
+
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">主页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">归档</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">关于</a>
+      </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Markdown的基本语法</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2020-05-05 22:46:01 </span>
+        <div class="post-category">
+            <a href="/categories/markdown/"> markdown </a>
+            </div>
+          <span class="more-meta"> 约 1397 字 </span>
+          <span class="more-meta"> 预计阅读 3 分钟 </span>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#标题">标题</a></li>
+    <li><a href="#段落格式">段落格式</a>
+      <ul>
+        <li><a href="#换行">换行</a></li>
+        <li><a href="#字体">字体</a></li>
+        <li><a href="#分隔线">分隔线</a></li>
+        <li><a href="#删除线">删除线</a></li>
+        <li><a href="#下划线">下划线</a></li>
+        <li><a href="#脚注">脚注</a></li>
+      </ul>
+    </li>
+    <li><a href="#列表">列表</a>
+      <ul>
+        <li><a href="#无序列表">无序列表</a></li>
+        <li><a href="#有序列表">有序列表</a></li>
+        <li><a href="#列表嵌套">列表嵌套</a></li>
+      </ul>
+    </li>
+    <li><a href="#区块">区块</a></li>
+    <li><a href="#代码">代码</a></li>
+    <li><a href="#链接">链接</a>
+      <ul>
+        <li><a href="#超链接">超链接</a></li>
+        <li><a href="#锚点">锚点</a></li>
+      </ul>
+    </li>
+    <li><a href="#图片">图片</a></li>
+    <li><a href="#表格">表格</a></li>
+    <li><a href="#高级技巧">高级技巧</a>
+      <ul>
+        <li><a href="#html原始码">html原始码</a></li>
+        <li><a href="#转义">转义</a></li>
+        <li><a href="#公式">公式</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <h2 id="标题">标题</h2>
+<p>使用 # 号可表示 1-6 级标题：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback"># 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="段落格式">段落格式</h2>
+<h3 id="换行">换行</h3>
+<p>行尾的两个以上空格加回车 or 段落后使用一个空行。</p>
+<h3 id="字体">字体</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">*斜体文本*
+_斜体文本_
+**粗体文本**
+__粗体文本__
+***粗斜体文本***
+___粗斜体文本___
+</code></pre></td></tr></table>
+</div>
+</div><p><em>斜体文本</em><br>
+<em>斜体文本</em><br>
+<strong>粗体文本</strong><br>
+<strong>粗体文本</strong><br>
+<em><strong>粗斜体文本</strong></em><br>
+<em><strong>粗斜体文本</strong></em></p>
+<h3 id="分隔线">分隔线</h3>
+<p>用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">***
+* * *
+- - -
+--------
+</code></pre></td></tr></table>
+</div>
+</div><hr>
+<hr>
+<hr>
+<h3 id="删除线">删除线</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">BAIDU.COM
+~~BAIDU.COM~~
+</code></pre></td></tr></table>
+</div>
+</div><p>BAIDU.COM<br>
+<del>BAIDU.COM</del></p>
+<h3 id="下划线">下划线</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">&lt;u&gt;带下划线文本&lt;/u&gt;
+</code></pre></td></tr></table>
+</div>
+</div><p><!-- raw HTML omitted -->带下划线文本<!-- raw HTML omitted --></p>
+<h3 id="脚注">脚注</h3>
+<p>脚注是对文本的补充说明。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">创建脚注格式类似这样 [^RUNOOB]。
+
+[^RUNOOB]: 菜鸟教程 -- 学的不仅是技术，更是梦想！！！
+</code></pre></td></tr></table>
+</div>
+</div><p>创建脚注格式类似这样 <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>。</p>
+<h2 id="列表">列表</h2>
+<h3 id="无序列表">无序列表</h3>
+<p>无序列表使用星号(*)、加号(+)或是减号(-)作为列表标记：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">* 无序列表一
++ 无序列表二
+- 无序列表二
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>无序列表一</li>
+</ul>
+<ul>
+<li>无序列表二</li>
+</ul>
+<ul>
+<li>无序列表三</li>
+</ul>
+<h3 id="有序列表">有序列表</h3>
+<p>有序列表则使用数字接着一个英文句点：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">1. 有序列表一
+2. 有序列表二
+</code></pre></td></tr></table>
+</div>
+</div><ol>
+<li>有序列表一</li>
+<li>有序列表二</li>
+</ol>
+<h3 id="列表嵌套">列表嵌套</h3>
+<p>列表嵌套只需在子列表中的选项添加四个空格即可</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">1. 第一项：
+    - 第一项嵌套的第一个元素
+    - 第一项嵌套的第二个元素
+2. 第二项：
+    - 第二项嵌套的第一个元素
+    - 第二项嵌套的第二个元素
+</code></pre></td></tr></table>
+</div>
+</div><ol>
+<li>第一项：
+<ul>
+<li>第一项嵌套的第一个元素</li>
+<li>第一项嵌套的第二个元素</li>
+</ul>
+</li>
+<li>第二项：
+<ul>
+<li>第二项嵌套的第一个元素</li>
+<li>第二项嵌套的第二个元素</li>
+</ul>
+</li>
+</ol>
+<h2 id="区块">区块</h2>
+<p>区块引用是在段落开头使用 &gt; 符号 ，然后后面紧跟一个空格符号</p>
+<p>Markdown 也允许你偷懒只在整个段落的第一行最前面加上 &gt;</p>
+<p>引用的区块内也可使用其他的 Markdown 语法，包括标题、列表、代码区块等</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">&gt; 你是猪吗？孩子
+&gt;&gt; 是的 我是猪  
+我真的是猪
+</code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>你是猪吗？孩子</p>
+<blockquote>
+<p>是的 我是猪<br>
+我真的是猪</p>
+</blockquote>
+</blockquote>
+<h2 id="代码">代码</h2>
+<p>行内代码：用反引号&quot;`&ldquo;包括起来</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">`printf()` 函数
+</code></pre></td></tr></table>
+</div>
+</div><p><code>printf()</code> 函数</p>
+<p>多行代码：<br>
+(1)代码区块使用一个制表符(不推荐，格式有点不正常)<br>
+(2)用六个反引号```包裹代码(后面可跟上c/java/php/js/py/go/xml/html/matlab/go等等)</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-golang" data-lang="golang"><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
+
+<span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Hello,World!&#34;</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="链接">链接</h2>
+<h3 id="超链接">超链接</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">[链接名称](链接地址 &#34;链接标题，可不加&#34;)
+or
+&lt;链接地址&gt;
+or
+[链接文字][链接标记]
+在文本的任意位置添加
+[链接标记]:链接地址 &#34;链接标题&#34;
+</code></pre></td></tr></table>
+</div>
+</div><p><a href="http://www.baidu.com" title="鼠标悬停显示的文字，可不加">百度一下</a></p>
+<h3 id="锚点">锚点</h3>
+<p>锚点其实就是页内超链接，实现快速跳到页面指定位置：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">目的地{#index}
+[跳转](#index)
+</code></pre></td></tr></table>
+</div>
+</div><p>目的地{#dst}<br>
+<a href="#dst">跳转</a></p>
+<h2 id="图片">图片</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">![alt 属性文本](图片地址)
+or
+![alt 属性文本](图片地址 &#34;可选标题&#34;)
+or
+![alt 属性文本][标记]
+在文本的任意位置添加
+[标记]:图片地址 &#34;可选标题&#34;
+</code></pre></td></tr></table>
+</div>
+</div><p>[alt 属性文本]其实是图片未正常显示时的替换文字。</p>
+<p><img src="http://static.runoob.com/images/runoob-logo.png" alt="RUNOOB 图标"></p>
+<h2 id="表格">表格</h2>
+<p>第一行为表头，第二行分隔表头和主体部分</p>
+<p>使用 | 来分隔不同的单元格，使用 - 来分隔表头和其他行。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">左对齐 | 右对齐 | 居中对齐
+:-----| ----: | :----:
+单元格 | 单元格 | 单元格
+单元格 | 单元格 | 单元格
+</code></pre></td></tr></table>
+</div>
+</div><table>
+<thead>
+<tr>
+<th style="text-align:left">左对齐</th>
+<th style="text-align:right">右对齐</th>
+<th style="text-align:center">居中对齐</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">单元格</td>
+<td style="text-align:right">单元格</td>
+<td style="text-align:center">单元格</td>
+</tr>
+<tr>
+<td style="text-align:left">单元格</td>
+<td style="text-align:right">单元格</td>
+<td style="text-align:center">单元格</td>
+</tr>
+</tbody>
+</table>
+<h2 id="高级技巧">高级技巧</h2>
+<h3 id="html原始码">html原始码</h3>
+<p>在代码区块里面， &amp; 、 &lt; 和 &gt; 会自动转成 HTML 实体</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">&lt;div class=&#34;footer&#34;&gt;
+   © 2004 Foo Corporation
+&lt;/div&gt;
+</code></pre></td></tr></table>
+</div>
+</div><!-- raw HTML omitted -->
+<h3 id="转义">转义</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">\   反斜线
+`   反引号
+*   星号
+_   下划线
+{}  花括号
+[]  方括号
+()  小括号
+#   井字号
++   加号
+-   减号
+.   英文句点
+!   感叹号
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="公式">公式</h3>
+<p>行内公式：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">$E=mc^2$
+</code></pre></td></tr></table>
+</div>
+</div><p>$E=mc^2$</p>
+<p>多行公式：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">$$E=mc^2$$
+</code></pre></td></tr></table>
+</div>
+</div><p>$$E=mc^2$$</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>菜鸟教程 &ndash; 学的不仅是技术，更是梦想！！！ <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">萌小叔</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2020-05-06 22:46:01
+        
+    </span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">许可协议</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/markdown/">markdown</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/2020/05061/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Hugo&#43;Github搭建个人博客</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="https://github.com/codemgo" class="iconfont icon-github" title="github"></a>
+  <a href="https://IDName.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2020 - 
+    2021<span class="heart"><i class="iconfont icon-heart"></i></span><span>萌小叔</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.c12618f9a600c40bd024996677e951e64d3487006775aeb22e200c990006c5c7.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
