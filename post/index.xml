@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 萌小叔的博客</title>
+    <link>https://IDName.github.io/post/</link>
+    <description>Recent content in Posts on 萌小叔的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 06 May 2020 15:43:34 +0800</lastBuildDate><atom:link href="https://IDName.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo&#43;Github搭建个人博客</title>
+      <link>https://IDName.github.io/post/2020/05061/</link>
+      <pubDate>Wed, 06 May 2020 15:43:34 +0800</pubDate>
+      
+      <guid>https://IDName.github.io/post/2020/05061/</guid>
+      <description>&lt;p&gt;Hugo是基于Go语言编写的静态博客框架，利用它结合Github Pages可以很容易的搭建出个人博客。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Markdown的基本语法</title>
+      <link>https://IDName.github.io/post/2020/05051/</link>
+      <pubDate>Tue, 05 May 2020 22:46:01 +0800</pubDate>
+      
+      <guid>https://IDName.github.io/post/2020/05051/</guid>
+      <description>标题 使用 # 号可表示 1-6 级标题： 1 2 3 4 5 6 # 一级标题 ## 二级标题 ### 三级标题 #### 四级标题 ##### 五级标题 ###### 六级标题 段落格式 换行 行尾的两个以上空格加回车 or 段</description>
+    </item>
+    
+  </channel>
+</rss>
