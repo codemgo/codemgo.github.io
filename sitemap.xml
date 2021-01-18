@@ -1,85 +1,85 @@
-<?xml-stylesheet type="text/xsl" href="https://IDName.github.io/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://codemgo.github.io/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://IDName.github.io/about/</loc>
+    <loc>https://codemgo.github.io/about/</loc>
     <lastmod>2017-08-28T21:41:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://IDName.github.io/categories/</loc>
+    <loc>https://codemgo.github.io/categories/</loc>
     <lastmod>2020-05-06T22:46:01+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://IDName.github.io/tags/github/</loc>
+    <loc>https://codemgo.github.io/tags/github/</loc>
     <lastmod>2020-05-06T15:43:34+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://IDName.github.io/tags/hugo/</loc>
+    <loc>https://codemgo.github.io/tags/hugo/</loc>
     <lastmod>2020-05-06T15:43:34+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://IDName.github.io/categories/hugo/</loc>
+    <loc>https://codemgo.github.io/categories/hugo/</loc>
     <lastmod>2020-05-06T15:43:34+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://IDName.github.io/post/2020/05061/</loc>
+    <loc>https://codemgo.github.io/post/2020/05061/</loc>
     <lastmod>2020-05-06T15:43:34+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://IDName.github.io/post/</loc>
+    <loc>https://codemgo.github.io/post/</loc>
     <lastmod>2020-05-06T22:46:01+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://IDName.github.io/tags/</loc>
+    <loc>https://codemgo.github.io/tags/</loc>
     <lastmod>2020-05-06T22:46:01+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://IDName.github.io/</loc>
+    <loc>https://codemgo.github.io/</loc>
     <lastmod>2020-05-06T22:46:01+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://IDName.github.io/tags/markdown/</loc>
+    <loc>https://codemgo.github.io/tags/markdown/</loc>
     <lastmod>2020-05-06T22:46:01+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://IDName.github.io/categories/markdown/</loc>
+    <loc>https://codemgo.github.io/categories/markdown/</loc>
     <lastmod>2020-05-06T22:46:01+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://IDName.github.io/post/2020/05051/</loc>
+    <loc>https://codemgo.github.io/post/2020/05051/</loc>
     <lastmod>2020-05-06T22:46:01+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

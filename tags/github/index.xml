@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>github on 萌小叔的博客</title>
-    <link>https://IDName.github.io/tags/github/</link>
+    <link>https://codemgo.github.io/tags/github/</link>
     <description>Recent content in github on 萌小叔的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 06 May 2020 15:43:34 +0800</lastBuildDate><atom:link href="https://IDName.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 May 2020 15:43:34 +0800</lastBuildDate><atom:link href="https://codemgo.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo&#43;Github搭建个人博客</title>
-      <link>https://IDName.github.io/post/2020/05061/</link>
+      <link>https://codemgo.github.io/post/2020/05061/</link>
       <pubDate>Wed, 06 May 2020 15:43:34 +0800</pubDate>
       
-      <guid>https://IDName.github.io/post/2020/05061/</guid>
+      <guid>https://codemgo.github.io/post/2020/05061/</guid>
       <description>&lt;p&gt;Hugo是基于Go语言编写的静态博客框架，利用它结合Github Pages可以很容易的搭建出个人博客。&lt;/p&gt;</description>
     </item>
     

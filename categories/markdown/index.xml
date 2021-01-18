@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>markdown on 萌小叔的博客</title>
-    <link>https://IDName.github.io/categories/markdown/</link>
+    <link>https://codemgo.github.io/categories/markdown/</link>
     <description>Recent content in markdown on 萌小叔的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 05 May 2020 22:46:01 +0800</lastBuildDate><atom:link href="https://IDName.github.io/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 May 2020 22:46:01 +0800</lastBuildDate><atom:link href="https://codemgo.github.io/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown的基本语法</title>
-      <link>https://IDName.github.io/post/2020/05051/</link>
+      <link>https://codemgo.github.io/post/2020/05051/</link>
       <pubDate>Tue, 05 May 2020 22:46:01 +0800</pubDate>
       
-      <guid>https://IDName.github.io/post/2020/05051/</guid>
+      <guid>https://codemgo.github.io/post/2020/05051/</guid>
       <description>标题 使用 # 号可表示 1-6 级标题： 1 2 3 4 5 6 # 一级标题 ## 二级标题 ### 三级标题 #### 四级标题 ##### 五级标题 ###### 六级标题 段落格式 换行 行尾的两个以上空格加回车 or 段</description>
     </item>
     

@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://IDName.github.io/sitemap.xml
+Sitemap: https://codemgo.github.io/sitemap.xml
